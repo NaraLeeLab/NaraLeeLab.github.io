@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css"
+  </head>
+  <body>
+    <!-- the include tag allows you to include content from
+        another file store in an _includes folder. -->
+    {% include navigation.html %}
+    <!-- content is a variable that takes whatever is
+    placed here (??) -->
+    {{ content }}
+  </body>
+</html>
